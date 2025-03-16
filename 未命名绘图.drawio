@@ -5,34 +5,46 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="77e6c97f196da883-1" value="Pool" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
-          <mxGeometry x="100" y="40" width="960" height="750" as="geometry" />
+          <mxGeometry x="100" y="40" width="960" height="970" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-2" value="Lane 1" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry y="20" width="160" height="730" as="geometry" />
+          <mxGeometry y="20" width="160" height="950" as="geometry" />
         </mxCell>
         <mxCell id="S5RcSBFXCC8eWa7zOzWE-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="77e6c97f196da883-2" source="77e6c97f196da883-8" target="77e6c97f196da883-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-8" value="创建bootstrapContext" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-2" vertex="1">
-          <mxGeometry x="20" y="65" width="100" height="60" as="geometry" />
+          <mxGeometry x="30" y="65" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GOyWa81Qpn7GieWuIh59-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-2" source="77e6c97f196da883-9" target="GOyWa81Qpn7GieWuIh59-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-9" value="prepareEnvironment&lt;div&gt;准备运行时环境&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-2" vertex="1">
-          <mxGeometry x="20" y="155" width="100" height="60" as="geometry" />
+          <mxGeometry x="30" y="155" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GOyWa81Qpn7GieWuIh59-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-2" source="GOyWa81Qpn7GieWuIh59-11" target="GOyWa81Qpn7GieWuIh59-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GOyWa81Qpn7GieWuIh59-11" value="printBanner" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="77e6c97f196da883-2">
-          <mxGeometry x="10" y="295" width="120" height="60" as="geometry" />
+          <mxGeometry x="20" y="300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GOyWa81Qpn7GieWuIh59-13" value="创建context&lt;div&gt;spring的ioc工厂&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="77e6c97f196da883-2">
-          <mxGeometry x="10" y="435" width="120" height="60" as="geometry" />
+        <mxCell id="GOyWa81Qpn7GieWuIh59-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-2" source="GOyWa81Qpn7GieWuIh59-13" target="GOyWa81Qpn7GieWuIh59-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GOyWa81Qpn7GieWuIh59-13" value="创建context&lt;div&gt;spring的ioc工厂&lt;/div&gt;&lt;div&gt;servletWebServerApplicationContext&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="77e6c97f196da883-2">
+          <mxGeometry y="440" width="160" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="GOyWa81Qpn7GieWuIh59-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-2" source="GOyWa81Qpn7GieWuIh59-15" target="GOyWa81Qpn7GieWuIh59-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GOyWa81Qpn7GieWuIh59-15" value="perpareContext&lt;div&gt;准备上下文&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="77e6c97f196da883-2">
+          <mxGeometry x="20" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GOyWa81Qpn7GieWuIh59-17" value="refreshContext&lt;div&gt;刷新上下文（创建bean&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;）&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="77e6c97f196da883-2">
+          <mxGeometry x="20" y="720" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-3" value="Lane 2" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="160" y="20" width="160" height="730" as="geometry" />
+          <mxGeometry x="160" y="20" width="160" height="950" as="geometry" />
         </mxCell>
         <mxCell id="S5RcSBFXCC8eWa7zOzWE-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="77e6c97f196da883-3" source="S5RcSBFXCC8eWa7zOzWE-2" target="S5RcSBFXCC8eWa7zOzWE-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -59,7 +71,7 @@
           <mxGeometry x="22.5" y="190" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-4" value="Lane 3" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="320" y="20" width="160" height="730" as="geometry" />
+          <mxGeometry x="320" y="20" width="160" height="950" as="geometry" />
         </mxCell>
         <mxCell id="GOyWa81Qpn7GieWuIh59-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-4" source="77e6c97f196da883-12" target="GOyWa81Qpn7GieWuIh59-9">
           <mxGeometry relative="1" as="geometry" />
@@ -71,13 +83,13 @@
           <mxGeometry y="250" width="160" height="210" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-5" value="Lane 4" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="480" y="20" width="160" height="730" as="geometry" />
+          <mxGeometry x="480" y="20" width="160" height="950" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-6" value="Lane 5" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="640" y="20" width="160" height="730" as="geometry" />
+          <mxGeometry x="640" y="20" width="160" height="950" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-7" value="Lane 6" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="800" y="20" width="160" height="730" as="geometry" />
+          <mxGeometry x="800" y="20" width="160" height="950" as="geometry" />
         </mxCell>
         <mxCell id="S5RcSBFXCC8eWa7zOzWE-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="77e6c97f196da883-1" source="77e6c97f196da883-9" target="S5RcSBFXCC8eWa7zOzWE-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -93,6 +105,12 @@
         </mxCell>
         <mxCell id="GOyWa81Qpn7GieWuIh59-7" value="创建得configurableEvnironment的类继承图和属性" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GOyWa81Qpn7GieWuIh59-8">
           <mxGeometry width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GOyWa81Qpn7GieWuIh59-19" value="callRun&lt;div&gt;继承Run类的bean在spring启动完成后运行这些bean的run方法&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GOyWa81Qpn7GieWuIh59-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GOyWa81Qpn7GieWuIh59-17" target="GOyWa81Qpn7GieWuIh59-19">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
