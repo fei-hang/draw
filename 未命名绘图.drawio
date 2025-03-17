@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="1195" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="683" dy="351" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -46,7 +46,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="S5RcSBFXCC8eWa7zOzWE-8" value="将default放到最后面" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;container=0;" parent="1" vertex="1">
-          <mxGeometry x="282.5" y="635" width="120" height="60" as="geometry" />
+          <mxGeometry x="282.5" y="635" width="120" height="61" as="geometry" />
         </mxCell>
         <mxCell id="GOyWa81Qpn7GieWuIh59-1" value="一个Map" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFF2B;container=0;" parent="1" vertex="1">
           <mxGeometry x="282.5" y="250" width="60" height="30" as="geometry" />
@@ -66,10 +66,10 @@
         <mxCell id="GOyWa81Qpn7GieWuIh59-7" value="创建得configurableEvnironment的类继承图和属性" style="rounded=0;whiteSpace=wrap;html=1;container=0;" parent="1" vertex="1">
           <mxGeometry x="1090" y="30" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GOyWa81Qpn7GieWuIh59-22" value="" style="group" parent="1" vertex="1" connectable="0">
+        <mxCell id="GOyWa81Qpn7GieWuIh59-22" value="" style="group;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="90" y="60" width="490" height="1330" as="geometry" />
         </mxCell>
-        <mxCell id="77e6c97f196da883-2" value="Lane 1" style="swimlane;html=1;startSize=20;container=0;" parent="GOyWa81Qpn7GieWuIh59-22" vertex="1">
+        <mxCell id="77e6c97f196da883-2" value="Lane 1" style="swimlane;html=1;startSize=20;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="GOyWa81Qpn7GieWuIh59-22" vertex="1">
           <mxGeometry width="170" height="1330" as="geometry" />
         </mxCell>
         <mxCell id="GOyWa81Qpn7GieWuIh59-11" value="printBanner" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;container=0;" parent="77e6c97f196da883-2" vertex="1">
