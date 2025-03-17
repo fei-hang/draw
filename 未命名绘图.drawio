@@ -34,19 +34,16 @@
         <mxCell id="S5RcSBFXCC8eWa7zOzWE-4" value="保存命令行参数&lt;div&gt;{&quot;commandLineArgs&quot;,{args}}&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;container=0;" parent="1" vertex="1">
           <mxGeometry x="280" y="355" width="125" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="S5RcSBFXCC8eWa7zOzWE-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="S5RcSBFXCC8eWa7zOzWE-6" target="S5RcSBFXCC8eWa7zOzWE-8" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="N6XJ6GdqDj0mn-prZrSE-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S5RcSBFXCC8eWa7zOzWE-6" target="N6XJ6GdqDj0mn-prZrSE-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="570" />
+              <mxPoint x="340" y="570" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="S5RcSBFXCC8eWa7zOzWE-6" value="将configurationProperties放到Env对象得第一个&lt;div&gt;他是什么时候将conpro放到env里面的&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;container=0;" parent="1" vertex="1">
           <mxGeometry x="282.5" y="495" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="GOyWa81Qpn7GieWuIh59-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="S5RcSBFXCC8eWa7zOzWE-8" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="180" y="665" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="S5RcSBFXCC8eWa7zOzWE-8" value="将default放到最后面" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;container=0;" parent="1" vertex="1">
-          <mxGeometry x="282.5" y="635" width="120" height="61" as="geometry" />
         </mxCell>
         <mxCell id="GOyWa81Qpn7GieWuIh59-1" value="一个Map" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFF2B;container=0;" parent="1" vertex="1">
           <mxGeometry x="282.5" y="250" width="60" height="30" as="geometry" />
@@ -105,6 +102,23 @@
         <mxCell id="GOyWa81Qpn7GieWuIh59-25" value="初始化&lt;div&gt;执行继承了ApplicationContextInitializer的bean&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" parent="77e6c97f196da883-3" vertex="1">
           <mxGeometry x="20" y="990" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="S5RcSBFXCC8eWa7zOzWE-8" value="将default放到最后面" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;container=0;" parent="77e6c97f196da883-3" vertex="1">
+          <mxGeometry x="22.5" y="649" width="120" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="N6XJ6GdqDj0mn-prZrSE-2" value="发送ApplicationEnviromentPerparedEvent" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry y="530" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N6XJ6GdqDj0mn-prZrSE-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="72" y="590.0000000000001" as="sourcePoint" />
+            <mxPoint x="74.5238095238094" y="649" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="75" y="591" />
+              <mxPoint x="75" y="620" />
+              <mxPoint x="75" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="77e6c97f196da883-4" value="Lane 3" style="swimlane;html=1;startSize=20;container=0;" parent="GOyWa81Qpn7GieWuIh59-22" vertex="1">
           <mxGeometry x="330" width="160" height="1330" as="geometry" />
         </mxCell>
@@ -116,6 +130,14 @@
         </mxCell>
         <mxCell id="GOyWa81Qpn7GieWuIh59-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="GOyWa81Qpn7GieWuIh59-22" source="GOyWa81Qpn7GieWuIh59-25" target="GOyWa81Qpn7GieWuIh59-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N6XJ6GdqDj0mn-prZrSE-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GOyWa81Qpn7GieWuIh59-22" source="S5RcSBFXCC8eWa7zOzWE-8" target="GOyWa81Qpn7GieWuIh59-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="171" y="680" />
+              <mxPoint x="90" y="680" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
